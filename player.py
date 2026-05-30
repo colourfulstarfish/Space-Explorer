@@ -28,5 +28,11 @@ class Player:
             self.y=self.height//2
 
         if self.y > height:
-
             self.y = height-(self.height//2)
+
+        if self.x > width:
+            self.x=width-(self.width//2)
+
+        if self.x <0:
+            self.x=(self.width//2) 
+            
