@@ -15,3 +15,11 @@ yellow=(255,250,102)
 player_speed=1
 player_width=40
 player_height=50
+#bullet settings
+bullet_speed=10
+bullet_width=6
+bullet_height=14
+
+
+
+
