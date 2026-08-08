@@ -13,10 +13,10 @@ class Player:
 
     def update(self,keys):
         if keys[pygame.K_UP] or keys[pygame.K_w]:
-            self.y+=self.speed  
+            self.y-=self.speed  
         # move back   
         if keys[pygame.K_DOWN] or keys[pygame.K_s]:
-            self.y-=self.speed   
+            self.y+=self.speed   
         # move left
         if keys[pygame.K_LEFT] or keys[pygame.K_a]:
             self.x-=self.speed

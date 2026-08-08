@@ -32,7 +32,11 @@ def main():
 
         #draw the game
         screen.fill(settings.black)
+        player .draw(screen)
+        for bullet in bullets:
+            bullet.draw(screen)
         clock.tick(settings.fps)
+
 
         pygame.display.flip()
 
